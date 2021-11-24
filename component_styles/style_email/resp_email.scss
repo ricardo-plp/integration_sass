@@ -1,0 +1,27 @@
+@media screen and (max-width: 380px){
+  .section-7{
+      background: white;
+
+      .container_decor_email{
+          visibility: hidden;
+      }
+      .container_arrow{
+          visibility: hidden;
+      }
+  }
+  
+  .container_title_email .title_email{
+      font-size: 20px !important;
+  
+  }
+
+   .container_input_email{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       input{
+           border: 1px solid black !important;
+       }
+   }
+}

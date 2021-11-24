@@ -1,0 +1,36 @@
+@media screen and (max-width: 1000px){
+    .container-3 .category h1{
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+       width: 300px;
+       margin-bottom: 30px !important;
+    }
+    .container-3 .category p{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 300px;
+     }
+    .container-3{
+        justify-content: center !important;
+        align-items: center;
+    }
+    .container-3 .container_destination_boss{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important ;
+        align-items: center !important;
+        margin: auto;
+    }
+    .container-3 .container_destination_boss .container_card{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px !important;
+        margin-top: 20px;
+        width: 300px;
+        margin: auto;
+    }
+}

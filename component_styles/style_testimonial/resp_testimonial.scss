@@ -1,0 +1,37 @@
+@media screen and (max-width: 380px){
+   .section-5{
+    display: flex;
+    flex-direction: column;
+    .container_left_testimonial .container_title_testi h1{
+        width: 300px !important;
+        text-align: center;
+        margin: auto !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_left_testimonial .container_title_testi p{
+        width: 300px !important;
+        text-align: center;
+        margin-top: 0px !important;
+        margin: auto !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_right_testimonial{
+        width: 100%;
+        margin: auto;
+        align-items: center !important;
+        justify-content: center !important;
+        float: left;
+
+        img{
+            width: 400px;
+        }
+    }
+
+    .container_img_slide{
+     visibility: hidden;
+    }
+} 
+}

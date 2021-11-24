@@ -1,0 +1,54 @@
+// title 
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .container_book_left{
+        display: flex;
+        flex-direction: column;
+        // margin-left: 130px;
+        // margin-right: 100px;
+    }
+    
+    & .container_book_title{
+        margin-bottom: 50px;
+    }
+
+    & .container_book_title .title_book .title_book-1{
+        color: #5E6282;
+        font-family: 'poppins', sans-serif;
+        font-size: 18px;
+    }
+
+    & .container_book_title .title_book .title_book-2{
+        color: #14183E;
+        font-family: 'Volkhov', sans-serif;
+        font-size: 50px;
+    }
+}
+// description
+.section-4{
+    .container_book_left .container_description_trip .container_description{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        width: 395px;
+
+        & .box_img_desc{
+        margin-right: 20px;
+        }
+        & .box_text_desc .desc_book-1{
+            color: #5E6282;
+            font-family: 'poppins', sans-serif;
+            font-size: 16px;
+            font-weight: bolder;
+            margin-bottom: 5px;
+        }
+        & .box_text_desc .desc_book-2{
+            color: #5E6282;
+            font-family: 'poppins', sans-serif;
+            font-size: 16px;
+        }
+    }
+    
+}

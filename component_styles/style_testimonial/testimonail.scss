@@ -1,0 +1,21 @@
+.section-5{
+    display: flex;
+    padding-top: 100px;
+    padding:100px;
+    padding-bottom: 0px;
+    justify-content: space-between;
+
+  & .container_left_testimonial .container_title_testi{
+      margin-bottom: 90px;
+  }  
+  & .container_left_testimonial .container_title_testi .title_testi-1{
+    color: #5E6282;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+  }
+  & .container_left_testimonial .container_title_testi .title_testi-2{
+    color: #14183E;
+    font-family: 'Volkhov', sans-serif;
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,86 @@
+.container-3{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    position: relative;
+    
+    & .container_destination_boss{
+        display: flex;
+        margin-top: 70px;
+        justify-content: center;
+    }
+    & .container_destination_boss .container_card{
+        overflow:initial;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 50px;
+        height: 100%;
+        overflow: hidden;
+    }
+    .container_destination_boss .container_card:first-child{
+        margin-right: 35px;
+    }
+    
+    & .container_destination_boss .container_card .container_img_bk-1{
+       height: 307px;
+       width: 315px;
+       background-image: url('../../img/img_destination/Rome.jpeg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin-bottom:30px;
+    }
+    & .container_destination_boss .container_card .container_img_bk-2{
+        height: 307px;
+        width: 315px;
+        background-image: url('../../img/img_destination/big-ben-londres.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 30px;
+     }
+     & .container_destination_boss .container_card .container_img_bk-3{
+        height: 307px;
+        width: 315px;
+        background-image: url('../../img/img_destination/Europe.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 25px;
+     }
+
+// TEXTE
+    & .container_destination_boss .container_card .container_boss_text{
+        padding: 0px 30px;
+        height:100px;
+
+        & .destination_text_container-1{
+            display: flex;
+            justify-content: space-between;
+            color: #5E6282;
+            font-family: 'poppins',sans-serif;
+            margin-bottom: 22px;
+        }
+
+        & .container_text_time{
+            display: flex;
+            color: #5E6282;
+            font-family: 'poppins',sans-serif;
+        }
+
+        & .container_text_time p {
+            margin-left: 20px;
+        }
+    }
+// DECOR
+    & .container_boss_decor{
+         position: relative;
+         overflow: visible;
+         z-index: 100;
+         margin-left: 60px;
+    }
+    & .container_boss_decor .container_decor_destination{
+        position: absolute;
+        top: 150px;
+        right:-70px;
+        z-index: -100;
+
+    }
+
+}
